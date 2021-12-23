@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("./Karlskrona_Frisör.jpeg");
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: red;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  height: 100px;
+  width: 500px;
+  background: rgba(0, 0, 0, 0.247);
+}
+
+h1 {
+  color: #ffffff;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-size: 40px;
+  line-height: 1.2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.015em;
+  font-weight: 700;
+  font-style: normal;
+}
+
+p {
+  color: #ffffff;
+
+  font-size: 20px;
+}
