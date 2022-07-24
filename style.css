@@ -70,15 +70,7 @@ button:hover{
 }
 
 
-@media only screen and (max-width: 800px){
-    .nav__links, .cta {
-        display: none;
-    }
 
-    .menu{
-        display: inherit;
-    }
-}
 
 
 /* Mobile Nav */
@@ -122,6 +114,91 @@ button:hover{
 }
 
 
+
+
+
+
+
+/* here */
+
+#section{
+    background-color: #4A4A4B;
+    background-image: url(./bg.jpg);
+    background: linear-gradient( #212529ea,#212529e6), url(./bg.jpg) no-repeat center center;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#section h1{
+    font-size: 60px;
+}
+
+
+#left-box{
+    /* border: 1px solid black; */
+    height: 200px;
+    width: 500px;
+    text-align: center;
+}
+
+
+#left-box h1{
+    color: #ffffffe6;
+}
+
+#right-box{
+    /* border: 1px solid black; */
+    width: 260px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#right-box button{
+  border: none;
+  color: white;
+  padding:  10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 8px 8px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 20px;
+
+}
+
+
+@media only screen and (max-width: 800px){
+    .nav__links, .cta {
+        display: none;
+    }
+
+    .menu{
+        display: inherit;
+    }
+    #section h1{
+        font-size: 40px;
+
+    }
+    p{
+        width: 200px;
+    }
+
+    #left-box {
+        /* border: 1px solid black; */
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
 @media screen and (max-height: 450px) {
     .overlay a {
         font-size: 20px;
@@ -134,4 +211,5 @@ button:hover{
         top: 15px;
         right: 35px;
     }
+
 }
