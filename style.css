@@ -197,6 +197,9 @@ button:hover{
     .menu{
         display: inherit;
     }
+    #section{
+        justify-content: flex-start;
+    }
     #section h1{
         font-size: 40px;
 
@@ -213,6 +216,7 @@ button:hover{
         justify-content: center;
         align-items: center;
         margin-bottom: 50px;
+        margin-top: 155px;
     }
     #left-box p {
         width: 80vw;
