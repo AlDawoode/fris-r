@@ -134,19 +134,33 @@ button:hover{
 
 #section h1{
     font-size: 60px;
+    margin-bottom: 25px;
 }
 
 
 #left-box{
     /* border: 1px solid black; */
-    height: 200px;
-    width: 500px;
+    height: 280px;
+    width: 650px;
     text-align: center;
+   
 }
 
 
 #left-box h1{
-    color: #ffffffe6;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 60px;
+ 
+  
+}
+
+#left-box p{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(174, 160, 160);
+    font-size: 25px;
+
+  
 }
 
 #right-box{
@@ -154,6 +168,7 @@ button:hover{
     width: 260px;
     display: flex;
     justify-content: space-between;
+    width: 300px;
 }
 
 #right-box button{
@@ -168,6 +183,8 @@ button:hover{
   transition-duration: 0.4s;
   cursor: pointer;
   border-radius: 20px;
+
+  
 
 }
 
@@ -195,7 +212,13 @@ button:hover{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-bottom: 50px;
     }
+    #left-box p {
+        width: 80vw;
+    }
+
+
 }
 
 
