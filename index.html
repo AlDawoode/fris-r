@@ -1,19 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ny frisör i Karlskrona - Bergåsa Hair Salon</title>
-    <meta name="Description" CONTENT="Välkommen till Bergåsa, Hair Salon som ligger i Karlskrona">
-    <meta name="google-site-verification" content="+nxGUDJ4QpAZ5l9Bsjdi102tLVC21AIh5d1Nl23908vVuFHs34="/>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="container">
-        <h1>Karlskrona Frisör</h1>
-        <p>Välkommen till Bergåsa Hair Salon</p>
-        <a href="https://g.page/r/CWgbdVq854YFEAg/review">Visit US</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frisör i Karlskrona</title>
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="./karlskrona_frisör_logo.svg" alt="logo" />
+      <nav class="nav__links">
+        <ul>
+          <li><a href="#">Tjänster</a></li>
+          <li><a href="#">Prices</a></li>
+        </ul>
+      </nav>
+      <a href="#" class="cta"><button>Boka Tid</button></a>
+      <a onclick="openNav()" class="menu" href="#"><button>menu</button></a>
+    </header>
+    <div id="mobile__menu" class="overlay">
+      <a href="" class="close" onlclick="closeNav()">&times;</a>
+      <div class="overlay__content">
+        <a href="#">Tjänster</a>
+        <a href="#">Prices</a>
+      </div>
     </div>
-</body>
+    <script type="text/javascript" src="mobile.js"></script>
+  </body>
 </html>
